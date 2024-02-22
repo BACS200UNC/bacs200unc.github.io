@@ -1,0 +1,24 @@
+img
+{
+    height: 100px;
+}
+table, th
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+td
+{
+    border: 1px dotted black;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    list-style-position: 
+}
+#headerrow
+{
+    background-color: goldenrod;
+}
