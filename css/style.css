@@ -26,9 +26,10 @@ table a
 }
 .rowheader
 {
-    color: purple;
+    color: rgb(70, 11, 4);
+    background-color: grey;
 }
-td:hover
+th:hover
 {
     color: orange;
 }
