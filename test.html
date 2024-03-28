@@ -39,6 +39,38 @@
         <td><a href="https://validator.w3.org/nu/?showsource=yes&doc=https://www.bacs200.com/index.html">VALIDATE</a></td>
       </tr>
     </table>
+
+    <form method="GET" action="https://validator.w3.org/check">
+      <p>
+        <label for="page">Please enter an address:</label>
+        <input type="text" name="uri" size="60" id="page">
+        <input type="submit" value="Validate">
+      </p>
+    </form>
+    <form method="GET" action="https://validator.w3.org/check">
+      <p>
+        <p>
+          <label for="template">Template</label>
+          <input type="radio" name="uri" value="https://www.bacs200.com/template.html" id="template">
+        </p>
+        <p>
+          <label for="amuse">Amuse</label>
+          <input type="radio" name="uri" value="https://www.bacs200.com/amuse.html" id="amuse">
+        </p>
+        <p>
+          <label for="inspire">Inspire</label>
+          <input type="radio" name="uri" value="https://www.bacs200.com/inspire.html" id="inspire">
+        </p>
+        <p>
+          <label for="profile">Profile</label>
+          <input type="radio" name="uri" value="https://www.bacs200.com/profile.html" id="profile">
+        </p>
+      </p>
+      <p>
+        <input type="submit" value="Validate">
+      </p>
+    </form>
+
     <h1>Other</h1>
     <a href="index.html">HOME</a>
   </body>
